@@ -1,3 +1,6 @@
-import langchain
+from dotenv import load_dotenv
+import os
 
-print(langchain.__version__)
+load_dotenv()
+
+print(os.getenv("OPENAI_API_KEY"))
