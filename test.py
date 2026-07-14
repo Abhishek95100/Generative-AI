@@ -1,4 +1,3 @@
-import streamlit as st
+import langchain
 
-st.title("My First Streamlit App")
-st.write("Hello Abhishek!")
+print(langchain.__version__)
